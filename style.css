@@ -1,6 +1,6 @@
 
 html, body {
-  height: 200%;
+  height: 150%;
   scroll-behavior: smooth;
 }
 
@@ -714,7 +714,7 @@ li a.active {
     width: 0;
   }
   to {
-    width: 14%;
+    width: 15%;
   }
 }
 
