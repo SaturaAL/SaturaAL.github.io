@@ -384,6 +384,7 @@ li a.active {
 }
 
 .lorem_text {
+  background-color: #ffffff;
   margin-right: 10px;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
