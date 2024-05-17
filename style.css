@@ -651,6 +651,7 @@ li a.active {
 }
 
 .product-card:hover .seemore-circ{
+  
   top: 39%;
   left: 38%;
   width: 100px;
