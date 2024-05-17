@@ -371,7 +371,7 @@ li a.active {
 
 .mens_text {
   font-size: 24px;
-  color: #b4b4b4;
+  color: #8b8a8a;
   margin-top: 0;
   margin-bottom: 10px;
   transition: transform 200ms;
@@ -379,7 +379,7 @@ li a.active {
 }
 
 .mens_text:hover {
-  color: #5e5e5e;
+  color: #363636;
   transform: scale(1.1);
 }
 
