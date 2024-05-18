@@ -384,7 +384,7 @@ li a.active {
 }
 
 .lorem_text {
-  border-radius: 4px;
+  border-radius: 10px;
   background-color: #ffffff;
   margin-right: 10px;
   text-align: center;
@@ -400,6 +400,7 @@ li a.active {
 }
 
 .fade_out::before {
+  border-radius: 10px;
   content: "";
   position: absolute;
   top: 0;
