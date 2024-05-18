@@ -171,14 +171,18 @@
     height: min-content;
   }
   
-  .navbar {
-    background-color: #f5f5f5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-bottom-left-radius: 40px;
-    color: #fff;
-    padding: 0;
-    height: 95px;
-  }
+ .navbar {
+  background-image: url(bg-men.png);
+  background-size: cover;
+  background-position:10% ;
+  background-repeat: no-repeat;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-bottom-left-radius: 40px;
+  color: #fff;
+  padding: 0;
+  height: 95px;
+}
   
   .container {
     display: flex;
@@ -397,7 +401,7 @@
     margin-right: 10px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 14px;
+    font-size: 18px;
     color: #797979;
     margin-top: 5px;
     margin-bottom: 20px;
