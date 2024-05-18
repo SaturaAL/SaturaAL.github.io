@@ -172,7 +172,7 @@ html, body {
   top: 0;
   padding: 0;
   height: min-content;
-  width: max-content;
+  width: 100;
 }
 
 .navbar {
