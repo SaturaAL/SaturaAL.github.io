@@ -193,19 +193,21 @@
   }
   @keyframes logoabout {
     0%, 100% {
-        box-shadow: 0px 0px 15px rgba(17, 10, 95, 0.5);
         transform: rotate(0deg);
     }
     20% {
         transform: rotate(5deg);
     }
     40% {
+        transform: translateY(0) ;
         transform: rotate(-5deg);
     }
     60% {
+        transform: translateY(-12px);
         transform: rotate(3deg);
     }
     80% {
+        transform: translateY(-5px);
         transform: rotate(-3deg);
     }
 }
