@@ -735,7 +735,7 @@ li a.active {
   display: contents;
   position: relative;
   display: flex;
-  background-color: #acb7bd;
+  background-color: rgb(225, 255, 255, 0.75) 60%;
   padding: 10px;
   text-align: center;
   margin: 0;
