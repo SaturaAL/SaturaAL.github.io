@@ -730,12 +730,13 @@ li a.active {
   position:sticky;
   padding: 0;
   height: min-content;
+  width: 100%;
 }
 .footer {
   display: contents;
   position: relative;
   display: flex;
-  background-color: rgb(225, 255, 255, 0.75) 60%;
+  background-color: rgb(225, 255, 255, 0.75) 5%;
   padding: 10px;
   text-align: center;
   margin: 0;
