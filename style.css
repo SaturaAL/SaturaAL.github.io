@@ -384,6 +384,7 @@ li a.active {
 }
 
 .lorem_text {
+  border-radius: 4px;
   background-color: #ffffff;
   margin-right: 10px;
   text-align: center;
