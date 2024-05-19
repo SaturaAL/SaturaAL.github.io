@@ -739,16 +739,16 @@
     height: min-content;
   }
   .footer {
-    display: contents;
-    position: relative;
-    display: flex;
-    background-color: #acb7bd;
-    padding: 10px;
-    text-align: center;
-    margin: 0;
-    border-top-right-radius: 80px;
-    box-shadow: 4px -4px 4px rgba(0, 0, 0, 0.25);
-  }
+  display: contents;
+  position: relative;
+  display: flex;
+  background-color: rgb(225, 255, 255, 0.75) 5%;
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+  border-top-right-radius: 80px;
+  box-shadow: 4px -4px 4px rgba(0, 0, 0, 0.25);
+}
   
   .footer_container p {
     display: flex;
