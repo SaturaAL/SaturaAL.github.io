@@ -629,7 +629,7 @@ li a.active {
   border: #140339;
   align-items: center;
   transition: transform 250ms;
-  
+  text-decoration: none;
 }
 .seemore-circ{
   display: flex;
