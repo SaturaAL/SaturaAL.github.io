@@ -27,7 +27,7 @@ body {
   padding: 0;
   font-family: 'Caveat', cursive;
   background-color: #ffffff;
-  background-image: url('output-onlinepngtools.png');
+  background-image: url('img/output-onlinepngtools.png');
   background-repeat:repeat-y ;
   background-position: center;
   background-size: cover;
@@ -64,10 +64,15 @@ body {
 }
 
 .mySlides {
-  display: contents;
+  display: flex;
+  align-items: flex-start;
+  max-width: 600px;
+  width: 100%;
 }
 .container {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .cursor {
@@ -91,6 +96,8 @@ body {
   align-items: center;
   justify-content: center;
   gap: 10px;
+  
+  
 }
 
 .row img{
@@ -98,6 +105,7 @@ body {
   height: 100%;
   width: auto;
   animation: slideAnimation 2s linear 4s infinite normal forwards;
+  
 }
 
 
@@ -110,6 +118,7 @@ body {
 .column {
   float: left;
   width: 10%;
+  
 }
 .prev:hover,
 .next:hover {
@@ -123,14 +132,14 @@ body {
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 20px;
+  padding: 15px;
   margin-top: -50px;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin-right: 55px;
+  margin-left: 55px;
   color: rgb(0, 0, 0);
   font-weight: bold;
   font-size: 30px;
-  border-radius: 0 3px 3px 0;
+  border-radius: 3px 3px 3px 3px;
   user-select: none;
   -webkit-user-select: none;
   transition: transform 250ms;
@@ -147,28 +156,60 @@ body {
   opacity: 1;
 }
 .product-card {
-  display:list-item ;
-  list-style: none;
-  background-color: #f2f2f2;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  flex-basis: calc(33.333% - 20px);
+  display:flex;
+  background-image: url(img/bgpaper.png);
+  background-color: rgba(242, 242, 242, 1);
+  width: 400px;
+  height: 100%;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5);
   margin-top: 15px;
-  margin-left: 40%;
+  margin-left: 10%;
   margin-bottom: 10%;
   padding: 20px;
-  text-align: center;
-  justify-content: center;
-  border: #140339;
-  align-items: center;
-  transition: transform 250ms;
+  border-radius: 15px 0 0 15px;
+ 
 }
+
 .product-card img {
-  width: 100%;
+  cursor: pointer;
+  float:left ; 
+  width: 100%; 
   height: auto;
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin-right: 20px; 
 }
+
+.product-detail {
+  background-image: url(img/bgpaper80.png);
+  width: 200%;
+  height: 100%;
+  padding: 10px;
+  font-size: 30pt;
+  margin-left: 400px; 
+  border-radius: 0 15px 15px 0;
+  box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.5);
+  padding-top: 50px;
+  padding-left: 100px;
+  color: #fff;
+}
+
+.protel-teks{
+  text-align: right;
+  background-image: url(img/pprteks.jpg);
+  font-family: 'Caveat', cursive;
+  color: #303030c5;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 1px;
+  padding-top: 20px; 
+  margin-left: 10px;
+  margin-top: 20px;
+  height: 90%;
+  margin-right: 50px;
+  font-size: 18pt;
+  box-shadow: 0px 30px 20px rgba(0, 0, 0, 0.5);
+}
+
 
 
 .box_navbar {
@@ -189,7 +230,7 @@ body {
 
 /*navbar*/
 .navbar {
-  background-image: url('bg-men.png');
+  background-image: url(img/bg-men.png);
   background-size: cover;
   background-position:10% ;
   background-repeat: no-repeat;
@@ -388,7 +429,7 @@ li a.active {
 }
 
 .modal-content {  
-  margin: auto;
+  margin-left: 29%;
   margin-top: 10px;
   display: block;
   width: 80%;
@@ -402,16 +443,16 @@ li a.active {
 .close {
   position: absolute;
   top: 100px;
-  right: 40px;
+  right: 30px;
   color: #f1f1f1;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;
   transition: 0.3s;
 }
 
 .close:hover,
 .close:focus {
-  color: #bbb;
+  color: #999999;
   text-decoration: none;
   cursor: pointer;
 }
@@ -452,6 +493,22 @@ li a.active {
   border-radius: 10px;
 }
 
+/*Anima*/
+
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-5px);
+  }
+  60% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 
 @keyframes slideAnimation {
   0% {
