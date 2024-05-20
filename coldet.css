@@ -27,7 +27,7 @@ body {
   padding: 0;
   font-family: 'Caveat', cursive;
   background-color: #ffffff;
-  background-image: url('img/output-onlinepngtools.png');
+  background-image: url('output-onlinepngtools.png');
   background-repeat:repeat-y ;
   background-position: center;
   background-size: cover;
@@ -157,7 +157,7 @@ body {
 }
 .product-card {
   display:flex;
-  background-image: url(img/bgpaper.png);
+  background-image: url(bgpaper.png);
   background-color: rgba(242, 242, 242, 1);
   width: 400px;
   height: 100%;
@@ -180,7 +180,7 @@ body {
 }
 
 .product-detail {
-  background-image: url(img/bgpaper80.png);
+  background-image: url(bgpaper80.png);
   width: 200%;
   height: 100%;
   padding: 10px;
@@ -195,7 +195,7 @@ body {
 
 .protel-teks{
   text-align: right;
-  background-image: url(img/pprteks.jpg);
+  background-image: url(pprteks.jpg);
   font-family: 'Caveat', cursive;
   color: #303030c5;
   padding-right: 20px;
@@ -230,7 +230,7 @@ body {
 
 /*navbar*/
 .navbar {
-  background-image: url(img/bg-men.png);
+  background-image: url(bg-men.png);
   background-size: cover;
   background-position:10% ;
   background-repeat: no-repeat;
