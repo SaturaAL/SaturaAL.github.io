@@ -84,8 +84,9 @@ body {
 }
 .caption-container {
   text-align: center;
-  background-color: #222;
-  padding: 10px 16px;
+  background-image: linear-gradient(125deg, #7db5ff 0%, #757575 100%, #000000 100%, #000000 100%);
+  padding: 20px 16px;
+  margin-bottom: 20px;
   color: white;
 }
 
