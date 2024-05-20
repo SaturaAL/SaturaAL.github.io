@@ -97,6 +97,7 @@ body {
   border-radius:4% ;
   height: 100%;
   width: auto;
+  animation: slideAnimation 2s linear 4s infinite normal forwards;
 }
 
 
@@ -451,3 +452,24 @@ li a.active {
   border-radius: 10px;
 }
 
+
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(0);
+  }
+  60% {
+    transform: translateX(0);
+  }
+  80% {
+    transform: translateX(10px);
+  }
+  90% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
