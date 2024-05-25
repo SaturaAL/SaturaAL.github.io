@@ -873,7 +873,7 @@ li a.active {
   }
   .shoes_img img {
   padding: auto;
-  width: 300px;
+  width: 250px;
   border: #ccc;
   border-radius: 5%;
   transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -887,6 +887,16 @@ li a.active {
   .nav-links {
     flex-direction: column;
     gap: 0;
+  }
+  .shoes_img img {
+  padding: auto;
+  width: 250px;
+  border: #ccc;
+  border-radius: 5%;
+  transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  .shoes_img {
+    width: 50%;
   }
 
   .nav-links li {
