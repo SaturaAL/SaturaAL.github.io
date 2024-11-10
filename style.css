@@ -177,7 +177,7 @@ html {
 }
 
 .navbar {
-  background-image: url(img/bg-men.png);
+  background-image: url('bg-men.png');
   background-size: cover;
   background-position:10% ;
   background-repeat: no-repeat;
